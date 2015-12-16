@@ -1,0 +1,73 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    width: 90%;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.dropdown-toggle {
+    cursor: pointer;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+.info {
+    border-radius: 6px;
+    box-shadow: 5px 10px 10px #eeeeee  inset;
+}
+
+.gold {
+    /* Old Browsers */
+    background: rgb(202, 168, 5);
+    /* Firefox */
+    background: -moz-linear-gradient(top, rgba(235, 233, 249, 1) 0, rgba(202,168,5, 1) 100%);
+    /* Chrome and Safari */
+    background: -webkit-linear-gradient(bottom, rgba(255, 255, 0, 1) 0, rgba(202,168,5, 1) 100%);
+    /* W3C, IE10+*/
+    background: linear-gradient(top, rgba(235, 233, 249, 1) 0, rgba(193, 191, 234, 1) 100%);
+    color: #000000;
+}
+
+.silver {
+    /* Old Browsers */
+    background: rgb(235, 233, 249);
+    /* Firefox */
+    background: -moz-linear-gradient(top, rgba(233, 233, 249, 1) 0, rgba(222, 222, 222, 1) 100%);
+    /* Chrome and Safari */
+    background: -webkit-linear-gradient(bottom, rgba(233, 233, 249, 1) 0, rgba(222, 222, 222, 1) 100%);
+    /* W3C, IE10+*/
+    background: linear-gradient(top, rgba(233, 233, 233, 1) 0, rgba(222, 222, 222, 1) 100%);
+    color: #000000;
+}
+
+.btn-red {
+    background-color: #d42426;
+    color: #ffffff;
+}
+
+.btn-green {
+    background-color: #34502B;
+    color: #ffffff;
+}
+
+.striped-border {
+}
+
+.jumbotron {
+    padding: 10px;
+}
+
+.topGifts {
+    padding-bottom: 30px;
+    height: 400px;
+}
